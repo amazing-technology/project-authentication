@@ -1,0 +1,19 @@
+{
+  "name": "authentication-center-api",
+  "version": "1.0.0",
+  "description": "User Authentication and authorization",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amazing-technology/project-authentication.git"
+  },
+  "author": "Faustin I",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amazing-technology/project-authentication/issues"
+  },
+  "homepage": "https://github.com/amazing-technology/project-authentication#readme"
+}
