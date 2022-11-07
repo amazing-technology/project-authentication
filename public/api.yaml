@@ -1,0 +1,35 @@
+         
+definitions:
+  user:
+    type: object
+    required:
+      - firstname
+      - lastname
+      - email
+      - phoneNumber
+    properties:
+      firstname:
+        type: string
+      lastname:
+         type: string
+      email:
+        type: string
+      phoneNumber:
+        type: string      
+paths:
+  /api/v1/users:          
+    post:                
+      tags:               
+        - users        
+      summary: Register A User
+      requestBody:
+        required: true
+        content: 
+          application/json:
+            schema:
+              $ref: '#/definitions/user'            
+      responses:
+        '200':
+          description: Successfully Registered
+        '500':
+          description: Internal server error                
